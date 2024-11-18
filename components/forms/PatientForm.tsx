@@ -79,7 +79,7 @@ const PatientForm = () => {
           label="Email"
           placeholder="johndoe@exmaple.com"
           iconSrc="/assets/icons/email.svg"
-          iconAlt="e,ail"
+          iconAlt="email"
         />
         <CustomFormField
           fieldType={FormFieldType.PHONE_INPUT}
