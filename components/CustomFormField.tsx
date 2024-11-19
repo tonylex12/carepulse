@@ -57,6 +57,7 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
           </FormControl>
         </div>
       );
+
     case FormFieldType.PHONE_INPUT:
       return (
         <FormControl>
@@ -86,7 +87,7 @@ const CustomFormField = (props: CustomProps) => {
       render={({ field }) => (
         <FormItem className="flex-1">
           {fieldType !== FormFieldType.CHECKBOX && label && (
-            <FormLabel>{name}</FormLabel>
+            <FormLabel>{label}</FormLabel>
           )}
 
           <RenderField field={field} props={props} />
