@@ -275,6 +275,15 @@
   .date-picker {
     @apply overflow-hidden border-transparent w-full placeholder:text-dark-600  h-11 text-14-medium rounded-md px-3 outline-none !important;
   }
+
+  .my-checkbox {
+    @apply w-5 h-5 border border-green-500 rounded-md cursor-pointer !important;
+  }
+
+  .checked {
+    @apply w-5 h-5 rounded-md border border-green-500 !important;
+    background: linear-gradient(to right, #24ae7c, #79b5ec);
+  }
 }
 
 /* =====  REACT-DATEPICKER OVERRIDES */
